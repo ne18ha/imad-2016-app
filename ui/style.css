@@ -26,3 +26,12 @@ body {
     text-decoration:underline;
    -moz-text-decoration-color:purple;
 }
+.type2{
+    font:italic bold 40px/40px comic sans;
+    text-align:left;
+    
+}
+.type3{
+    font:italic bold 20px/20px comic sans;
+    text-align:left;
+}
