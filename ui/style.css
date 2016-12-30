@@ -1,11 +1,14 @@
 body {
     font-family: comic sans;
-    background-color: white;
-    margin-top: 75px;
+    background-color: green;
+    margin-top: 70px;
 }
 
 .center {
     text-align: center;
+}
+.top-left-corner{
+    text-align:left;
 }
 
 .text-big {
