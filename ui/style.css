@@ -25,8 +25,8 @@ body {
 }
 
 .heading{
-    height:200px;
+    height:5000px;
     font-family:Gabriola;
-    position:absolute;
-    top:50em;
+    font-style:italic;
+    color:purple;
 }
