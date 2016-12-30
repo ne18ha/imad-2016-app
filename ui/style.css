@@ -24,8 +24,6 @@ body {
     height: 200px;
 }
 
-.heading{
-    font-family:Gabriola;
-    font-style:italic;
-    color:purple;
+.type1 {
+    font: italic bold 12px/30px Georgia, serif;
 }
