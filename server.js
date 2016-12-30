@@ -44,10 +44,8 @@ app.get('/articles/:articleName', function(req,res){
                  res.send(createTemplate(articleData));
             }
             }
-        }
     });
-   
-});
+    });
 app.get('/ims', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
 });
