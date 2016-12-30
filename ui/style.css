@@ -25,5 +25,7 @@ body {
 }
 
 .type1 {
-    font: italic bold 50px/50px Georgia, serif;
+    font: italic bold 80px/80px Georgia, serif;
+    text-align:center;
+    color:purple;
 }
