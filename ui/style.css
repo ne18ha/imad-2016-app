@@ -8,12 +8,7 @@ body {
 .center {
     text-align: center;
 }
-.top-left-corner{
-    text-align:left;
-}
-.top-right-corner{
-    text-align:right;
-}
+
 .img-ex-small{
     height:25px;
 }
