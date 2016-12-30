@@ -46,7 +46,7 @@ app.get('/articles/:articleName', function(req,res){
             }
     });
     });
-app.get('/ui/blog', function (req, res) {
+app.get('/blog', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'blog.html'));
 });
 app.get('/ui/style.css', function (req, res) {
