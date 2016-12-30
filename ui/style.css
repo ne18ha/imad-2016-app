@@ -10,7 +10,9 @@ body {
 .top-left-corner{
     text-align:left;
 }
-
+.top-right-corner{
+    text-align:right;
+}
 .text-big {
     font-size: 250%;
 }
