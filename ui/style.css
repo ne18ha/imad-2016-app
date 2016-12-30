@@ -28,4 +28,6 @@ body {
     font: italic bold 80px/80px Georgia, serif;
     text-align:center;
     color:purple;
+    text-decoration:underline;
+   -moz-text-decoration-color:purple;
 }
