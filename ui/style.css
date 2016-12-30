@@ -14,13 +14,6 @@ body {
 .top-right-corner{
     text-align:right;
 }
-.text-big {
-    font-size: 250%;
-}
-
-.bold {
-    font-weight: bold;
-}
 .img-ex-small{
     height:25px;
 }
@@ -31,3 +24,8 @@ body {
     height: 200px;
 }
 
+.heading{
+    height:200px;
+    font-family:Gabriola;
+    
+}
