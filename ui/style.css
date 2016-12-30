@@ -18,7 +18,9 @@ body {
 .bold {
     font-weight: bold;
 }
-
+.img-small{
+    height: 150px;
+}
 .img-medium {
     height: 200px;
 }
