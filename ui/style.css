@@ -69,7 +69,7 @@ li{
 header{
   background:#F08080;
   width:100%;
-  height:80px;
+  height:100px;
   position:fixed;
   top:0;
   left:0;
@@ -78,8 +78,8 @@ header{
 }
 #india{
     float:left;
-    margin:20px;
+    margin:10px;
     background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR27YW9ahnKVzkjupzDP7m8ayrs4VhWR2JVmQvDWVFIe8sZrUdI) no-repeat center;
     width:200px;
-    height:60px;
+    height:80px;
 }
