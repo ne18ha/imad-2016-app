@@ -5,7 +5,6 @@ body {
     margin-top: 70px;
 }
 body1{
-    font-family:comic sans;
     background-color:grey;
     
 }
@@ -68,7 +67,7 @@ li{
     text-align:center;
 }
 header{
-  background:black;
+  background:blue;
   height:80px;
   position:fixed;
   top:0;
