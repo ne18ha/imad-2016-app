@@ -54,3 +54,30 @@ img{
     text-align:center;
     
 }
+a{
+    text-decoration:none;
+    color:green;
+    font-weight:bold;
+}
+a:hover{
+    text-decoration:underline;
+    color:white;
+}
+li{
+    color:black;
+    text-align:center;
+}
+header{
+  background:black;
+  height:80px;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:100;
+  opacity:0.85;
+}
+#india{
+    float:left;
+    margin:20px;
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR27YW9ahnKVzkjupzDP7m8ayrs4VhWR2JVmQvDWVFIe8sZrUdI) no-repeat center;
+}
