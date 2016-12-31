@@ -116,6 +116,12 @@ nav ul li{
     margin-top:150px;
     max-width:1140px;
 }
+section{
+    margin:2% 2%;
+    text-align:center;
+    width:29%;
+    float:left;
+}
 .blueberry{
     max-width:960px;
     margin-top:110px;
