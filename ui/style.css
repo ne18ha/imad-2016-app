@@ -88,5 +88,19 @@ nav{
     padding:35px 20px 20px 0;
 }
 #menu{
-    
+    display:hidden;
+    width:40px;
+    height:40px;
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHIAAAByCAMAAAC4A3VPAAAASFBMVEX///8AAAB/f3/l5eUVFRWKioqNjY03NzfZ2dkZGRlWVlbr6+vo6OjBwcHMzMz6+voqKiq0tLRfX1+WlpYICAgfHx/09PR3d3e1KXngAAAA9klEQVRoge3ZWQ6DMAxFUUJLQpjDuP+dVqj9Mukfz5bQOxu4ogpBtYuCiIiIiJS0qQRJbb64rA5mXXLFBhc8NddiiS06V8pijS46V4ukxye9SAZ8MohkxCej/VNW+GRlf2KLA108rneB/u0DfjXlS/mzJ19B+LTni0RE9DTdC6L712t9iG+IGHz2f1C/IT/RW38tDsjgaZDFcUInp1EkE7roXBLJGZ+cRRJ6dr42+6TBD2twfAxeEoOrwOLCs7jWT9ofLyIiehb9gZr+2FB/OKo/AjYYdBuM87mauYl8SoM1m8VqRn9larOa0V9/Wyz5iYiIiOh+H4nCHdkw1Vi5AAAAAElFTkSuQmCC) center;
+}
+a:hover#menu{
+    border-radius:4px 4px 0 0;
+}
+ul{
+    list-style:none;
+}
+nav ul li{
+    display:inline-block;
+    float:left;
+    padding:10px;
 }
