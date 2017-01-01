@@ -77,6 +77,10 @@ header{
   opacity:0.90;
 }
 
+#map{
+    float:right;
+}
+
 footer{
     background:#4C3D3A;
     width:100%;
