@@ -76,6 +76,16 @@ header{
   z-index:100;
   opacity:0.90;
 }
+
+footer{
+    background:#4C3D3A;
+    width:100%;
+    overflow:hidden;
+    opacity:0.90;
+}
+footer p, footer h3{
+    color:white;
+}
 #india{
     float:left;
     margin:10px;
@@ -143,4 +153,17 @@ aside{
 .blueberry{
     max-width:960px;
     margin-top:110px;
+}
+ul.social li{
+    display:inline;
+}
+ul.social li img{
+    height:50px;
+}
+footer.second{
+    border-top:1px solid #4D4E50;
+    background-color:#333333;
+    max-height:50px;
+    text-align:center;
+    opacity:0.95;
 }
