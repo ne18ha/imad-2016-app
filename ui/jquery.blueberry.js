@@ -1,4 +1,4 @@
-(function($){
+function($){
 	$.fn.extend({
 		blueberry: function(options) {
 
@@ -75,7 +75,7 @@
 							//this prevents animation buildup caused by requestAnimationFrame
 							//rotateTimer starts a timer for the next rotate
 							rotateTimer();
-							$(this).dequeue()
+							$(this).dequeue();
 					});
 
 					//update pager to reflect slide change
