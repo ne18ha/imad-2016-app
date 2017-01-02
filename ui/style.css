@@ -80,7 +80,10 @@ header{
   z-index:100;
   opacity:0.90;
 }
-
+strong{
+background-color:#21628C;
+font-weight:bold;    
+}
 #map{
     float:right;
 }
