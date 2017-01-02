@@ -133,7 +133,7 @@ nav ul li{
 section{
     margin:2% 2%;
     text-align:center;
-    width:29%;
+    width:40%;
     float:left;
 }
 .clear{
@@ -167,7 +167,7 @@ ul.social li img{
 footer.second{
     border-top:1px solid #4D4E50;
     background-color:#333333;
-    max-height:50px;
+    max-height:20px;
     text-align:center;
     opacity:0.95;
 }
