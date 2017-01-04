@@ -231,7 +231,7 @@ footer.second{
 	margin:0;
 	top:102px;
 	left: 0;
-	text-align: center;
+	text-align:left;
 	font-size: 0;
 	animation: 20s slider infinite; 
 
