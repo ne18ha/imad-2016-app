@@ -228,9 +228,9 @@ footer.second{
 #slider figure {
 	position: relative;
 	width: 200%;
-	margin: 0;
+	margin: 10;
 	left: 0;
-	text-align: left;
+	text-align: center;
 	font-size: 0;
 	animation: 20s slider infinite; 
 
