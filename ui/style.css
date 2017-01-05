@@ -20,7 +20,8 @@ body {
 
 .type1 {
     font: italic bold 40px/40px Georgia, serif;
-    text-align:center;
+    float:left;
+    left:300px;
     color:red;
     text-decoration:underline;
    -moz-text-decoration-color:purple;
