@@ -21,6 +21,7 @@ body {
 .type1 {
     font: italic bold 40px/40px Georgia, serif;
     left:600px;
+    float:left;
     color:red;
     font-size:29px;
     text-decoration:underline;
