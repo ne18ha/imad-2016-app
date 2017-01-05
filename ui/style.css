@@ -19,9 +19,9 @@ body {
 }
 
 .type1 {
-    font: italic bold 80px/80px Georgia, serif;
+    font: italic bold 40px/40px Georgia, serif;
     text-align:center;
-    color:purple;
+    color:red;
     text-decoration:underline;
    -moz-text-decoration-color:purple;
 }
