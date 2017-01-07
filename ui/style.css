@@ -199,7 +199,6 @@ ul.social li img{
 
 #slider figure img {
 	width: 20%;
-	float: left;
 }
 
 #slider figure {
@@ -207,7 +206,7 @@ ul.social li img{
 	position: relative;
 	top:0;
 	left: 0;
-	text-align:left;
+	text-align:center;
 	font-size: 0;
 	animation: 20s slider infinite; 
 
