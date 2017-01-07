@@ -92,12 +92,10 @@ max-width:100%;
 footer{
     background:#4C3D3A;
     width:100%;
-    overflow:hidden;
     opacity:0.90;
-}
-footer p, footer h3{
     color:white;
 }
+
 #india{
     float:left;
     margin:10px;
@@ -126,42 +124,14 @@ nav ul li{
     float:left;
     padding:10px;
 }
-.current{
-    text-decoration:underline;
-    color:white;
-}
-#doc{
-    margin:40px 0;
-}
-#content{
-    margin:0 auto;
-    margin-top:150px;
-    max-width:1140px;
-}
+
 section{
     margin:2% 2%;
     text-align:center;
     width:30%;
     float:left;
 }
-.clear{
-    clear:both;
-}
-article{
-    float:left;
-    margin:0 auto;
-    width:50%;
-    height:auto;
-    padding:4%;
-}
-aside{
-    float:right;
-    margin:0 auto;
-    width:35%;
-    height:auto;
-    padding:3%;
-    
-}
+
 
 ul.social li{
     display:inline;
@@ -173,11 +143,9 @@ ul.social li img{
 .second{
     border-top:1px solid #4D4E50;
     background-color:#333333;
-    max-height:20px;
+    max-height:30px;
     text-align:center;
     opacity:0.95;
-    font-weight:bold;
-    color:white;
 }
 
 @keyframes slider {
