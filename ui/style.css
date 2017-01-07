@@ -1,213 +1,71 @@
-body {
-    font-family: comic sans;
-    background:#F0F9F4;
-    background-size:cover;
-    margin-top: 70px;
-}
-.center {
-    text-align: center;
-}
-
-.img-ex-small{
-    height:25px;
-}
-.img-small{
-    height: 45px;
-}
-.img-medium {
-    height: 200px;
-}
-
-.type1 {
-    font: italic bold 40px/40px Georgia, serif;
-    left:600px;
-    float:left;
-    color:red;
-    font-size:29px;
-    text-decoration:underline;
-   -moz-text-decoration-color:purple;
-}
-.type2{
-    font:bold 30px comic sans;
-    text-align:left;
-    
-}
-section1{
-    width:100%;
-    text-align:center;
-}
-.type3{
-    font:bold 15px comic sans;
-    text-align:left;
-}
-
-h1{
-    text-align:center;
-    font-size:180%;
-    line-height:120%;
-    padding:5% 0;
-    
-}
-p{
-    padding:1%;
-}
-img{
-    text-align:center;
-    width:328px;
-    height:154px;
-}
-a{
-    text-decoration:none;
-    color:white;
-    font-weight:bold;
-}
-a:hover{
-    text-decoration:underline;
-    color:white;
-}
-li{
-    color:black;
-    text-align:center;
+body{
+background:black;
 }
 header{
-  background:#4C3D3A;
-  width:100%;
-  height:100px;
-  position:fixed;
-  top:0;
-  left:0;
-  z-index:100;
-  opacity:0.90;
-}
-strong{
-background-color:#21628C;
+text-align:center;
 font-weight:bold;
-max-width:100%;
+font-size:60px;
+color:white;
 }
-
-#map{
-    float:right;
+.trending{
+ font-size:70px;
+ font-family:bernard mt;
 }
-
+.subheading{
+font-size:20px;
+}
+.img{
+float:left;
+height:200px;
+ width:300px;
+ margin:10px;
+}
 footer{
-    background:#4C3D3A;
-    width:100%;
-    opacity:0.90;
-    color:white;
-    height:60px;
-    text-align:center;
+ position:fixed;
+ text-align:center;
+ background:grey;
+ height:50px;
+ width:100%;
+ opacity:0.95;
+ color:white;
 }
-
-#india{
-    float:left;
-    margin:10px;
-    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR27YW9ahnKVzkjupzDP7m8ayrs4VhWR2JVmQvDWVFIe8sZrUdI) no-repeat center;
-    width:200px;
-    height:80px;
+.second{
+ text-align:center;
+ height:20px;
+ opacity:0.85;
 }
-nav{
-    float:right;
-    padding:35px 20px 20px 0;
+.submenu{
+ font-size:10px;
+ color:white;
 }
-#menu{
-    display:hidden;
-    width:40px;
-    height:40px;
-    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHIAAAByCAMAAAC4A3VPAAAASFBMVEX///8AAAB/f3/l5eUVFRWKioqNjY03NzfZ2dkZGRlWVlbr6+vo6OjBwcHMzMz6+voqKiq0tLRfX1+WlpYICAgfHx/09PR3d3e1KXngAAAA9klEQVRoge3ZWQ6DMAxFUUJLQpjDuP+dVqj9Mukfz5bQOxu4ogpBtYuCiIiIiJS0qQRJbb64rA5mXXLFBhc8NddiiS06V8pijS46V4ukxye9SAZ8MohkxCej/VNW+GRlf2KLA108rneB/u0DfjXlS/mzJ19B+LTni0RE9DTdC6L712t9iG+IGHz2f1C/IT/RW38tDsjgaZDFcUInp1EkE7roXBLJGZ+cRRJ6dr42+6TBD2twfAxeEoOrwOLCs7jWT9ofLyIiehb9gZr+2FB/OKo/AjYYdBuM87mauYl8SoM1m8VqRn9larOa0V9/Wyz5iYiIiOh+H4nCHdkw1Vi5AAAAAElFTkSuQmCC) center;
-}
-a:hover#menu{
-    border-radius:4px 4px 0 0;
+p{
+ padding:2%;
+ color:white;
 }
 ul{
-    list-style:none;
+ background:#1A5276;
+ list-style:none;
+ color:white;
+ border-radius: 10px;
 }
-nav ul li{
-    display:inline-block;
-    float:left;
-    padding:10px;
-}
-
-section{
-    margin:2% 2%;
-    text-align:center;
-    width:30%;
-    float:left;
-}
-
-
-ul.social li{
-    display:inline;
-}
-ul.social li img{
-    height:50px;
-}
-
-.second{
-    border-top:1px solid #4D4E50;
-    background-color:#333333;
-    max-height:30px;
-    text-align:center;
-    opacity:0.95;
-}
-
-@keyframes slider {
-
-0% {
-	left: 0;
-}
-
-20% {
-	left: 0;
-}
-
-25% {
-	left: -100%;
-}
-
-45% {
-    left: -100%;
-
-}
-
-50% {
-		left: -200%;
-
-}
-
-70% {
-	left: -200%;
-}
-
-75% {
-	left: -300%;
-}
-
-95% {
-	left: -300%;
-}
-
-100% {
-	left: -400%;
-
-}
-
-}
-
-#slider {
-	overflow: hidden;
-}
-
-#slider figure img {
-	width: 20%;
-}
-
-#slider figure {
-    display:inline;
-	position: relative;
-	top:0;
-	left: 0;
-	text-align:center;
-	font-size: 0;
-	animation: 20s slider infinite; 
-
-}
+ul li{
+ display:inline-block;
+ padding:2%;
+ font-size:25px;
+ }
+ section{
+ font-size:30px;
+ color:white;
+ margin:10px;
+ }
+ ul li a {
+  text-decoration:none;
+  color:white;
+ }
+ ul li a:hover{
+ text-decoration:underline;
+ color:white;
+ }
+ iframe{
+ margin:10px;
+ }
