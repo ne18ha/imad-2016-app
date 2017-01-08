@@ -5,6 +5,8 @@ header{
 text-align:center;
 font-weight:bold;
 color:white;
+background:grey;
+padding:0.5%;
 }
 .trending{
  font-size:70px;
@@ -16,20 +18,19 @@ font-size:20px;
 .img{
 float:left;
 height:200px;
- width:300px;
+ width:370px;
  margin:10px;
 }
 footer{
- position:fixed;
  text-align:center;
  background:grey;
- height:50px;
+ height:60px;
  width:100%;
  opacity:0.95;
  color:white;
+ overflow:hidden;
 }
 .second{
- text-align:center;
  height:20px;
  opacity:0.85;
 }
@@ -49,21 +50,30 @@ ul{
 }
 ul li{
  display:inline-block;
- padding:2%;
+ padding:1%;
  font-size:25px;
  }
  section{
  font-size:30px;
  color:white;
  margin:10px;
+  width:100%;
  }
  ul li a {
   text-decoration:none;
   color:white;
  }
  ul li a:hover{
- text-decoration:underline;
- color:white;
+  color:white;
+  background:#86A4B8;
+  height:50px;
+ }
+ #nav ul ul{
+ display:none;
+ position:absolute;
+ }
+ #nav ul li:hover ul{
+  display:block;
  }
  iframe{
  margin:10px;
