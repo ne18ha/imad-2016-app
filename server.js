@@ -85,9 +85,12 @@ app.get('/ui/googleplus.jpg', function (req, res) {
 app.get('/ui/close.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'close.jpg'));
 });
-function pop(){
+app.get(function pop(){
     document.getElementById("display").style.display="block";
-}
+});
+app.get(function close(){
+    document.getElementById("display").style.display="none";
+});
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
 app.listen(8080, function () {
