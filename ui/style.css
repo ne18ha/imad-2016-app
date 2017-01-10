@@ -95,4 +95,8 @@ ul li{
 }
 .box{
     display:none;
+    background:transparent;
+    text-align:center;
+    height:400px;
+    width:600px;
 }
