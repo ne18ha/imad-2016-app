@@ -7,6 +7,7 @@ font-weight:bold;
 color:white;
 background:grey;
 padding:0.5%;
+text-shadow: 5px 3px black;
 }
 .trending{
  font-size:70px;
@@ -88,7 +89,7 @@ ul li{
  font-weight:normal;
 }
 #login:hover{
- background:black;
+ background:#EFF2F3;
  height:30px;
  width:70px;
 }
