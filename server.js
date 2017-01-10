@@ -16,8 +16,8 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/aboutme', function (req, res) {
-  res.sendFile(path.join(__dirname,'ui','aboutme.html'));
+app.get('/ui/logo.png', function (req, res) {
+  res.sendFile(path.join(__dirname,'ui','logo.png'));
 });
 var pool= new Pool(config);
 app.get('/article-db',function (req,res){
