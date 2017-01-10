@@ -58,6 +58,30 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
+app.get('/ui/logo.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'logo.png'));
+});
+app.get('/ui/coc.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'coc.png'));
+});
+app.get('/ui/royale.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'royale.png'));
+});
+app.get('/ui/chess.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'chess.png'));
+});
+app.get('/ui/subway.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'subway.png'));
+});
+app.get('/ui/youtube.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'subway.png'));
+});
+app.get('/ui/fb.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'subway.png'));
+});
+app.get('/ui/googleplus.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'subway.png'));
+});
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
