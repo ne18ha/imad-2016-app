@@ -74,13 +74,13 @@ app.get('/ui/subway.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'subway.png'));
 });
 app.get('/ui/youtube.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'subway.png'));
+  res.sendFile(path.join(__dirname, 'ui', 'youtube.jpg'));
 });
 app.get('/ui/fb.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'subway.png'));
+  res.sendFile(path.join(__dirname, 'ui', 'fb.jpg'));
 });
 app.get('/ui/googleplus.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'subway.png'));
+  res.sendFile(path.join(__dirname, 'ui', 'googleplus.jpg'));
 });
 
 
