@@ -93,3 +93,6 @@ ul li{
  height:30px;
  width:70px;
 }
+.box{
+    display:none;
+}
