@@ -85,10 +85,10 @@ app.get('/ui/googleplus.jpg', function (req, res) {
 app.get('/ui/close.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'close.png'));
 });
-app.get(function pop(){
+app.get('pop()',function(req,res){
     document.getElementById("display").style.display="block";
 });
-app.get(function close(){
+app.get('close()',function(req,res){
     document.getElementById("display").style.display="none";
 });
 
