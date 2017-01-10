@@ -82,8 +82,8 @@ app.get('/ui/fb.jpg', function (req, res) {
 app.get('/ui/googleplus.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'googleplus.jpg'));
 });
-app.get('/ui/close.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'close.jpg'));
+app.get('/ui/close.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'close.png'));
 });
 app.get(function pop(){
     document.getElementById("display").style.display="block";
