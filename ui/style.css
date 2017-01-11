@@ -93,3 +93,11 @@ ul li{
  height:30px;
  width:70px;
 }
+.box{
+    margin:50px 40px;
+    height:100px;
+    width:130px;
+    background:transparent;
+    text-align:center;
+    border:2px solid white;
+}
