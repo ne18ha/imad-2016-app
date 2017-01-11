@@ -82,15 +82,6 @@ app.get('/ui/fb.jpg', function (req, res) {
 app.get('/ui/googleplus.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'googleplus.jpg'));
 });
-app.get('/ui/close.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'close.png'));
-});
-app.get('pop()',function(req,res){
-    document.getElementById("display").style.display="block";
-});
-app.get('close()',function(req,res){
-    document.getElementById("display").style.display="none";
-});
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
 app.listen(8080, function () {
