@@ -84,14 +84,14 @@ ul li{
  float:right;
  margin:40px;
  text-decoration:none;
- font-size:20px;
+ font-size:25px;
  color:white;
  font-family:bell mt;
  font-weight:normal;
+ text-shadow:none;
 }
 #login:hover{
- height:30px;
- width:70px;
+ background:#9EA3A4;
 }
 .box{
     margin:50px 40px;
