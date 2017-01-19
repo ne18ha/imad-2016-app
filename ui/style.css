@@ -67,8 +67,19 @@ ul li{
  }
  ul li a:hover{
   color:white;
-  background:#86A4B8;
+  background:#5A939D;
   height:50px;
+ }
+ #nav ul li{
+ display:inline-block;
+ margin:0 11px;
+ font-size:40px;
+ }
+ #nav1 ul li{
+ display:block;
+ background:#1382A7;
+ border-radius:2px;
+ font-size:30px;
  }
  #nav ul ul{
  display:none;
@@ -76,6 +87,15 @@ ul li{
  }
  #nav ul li:hover ul{
   display:block;
+ }
+ #nav ul li:hover ul li{
+  
+  display:block;
+ }
+ #nav{
+  background:#1D92B8;
+  border-radius:2px;
+  text-align:center;
  }
  iframe{
  margin:10px 10px;
@@ -92,12 +112,4 @@ ul li{
 }
 #login:hover{
  background:#9EA3A4;
-}
-.box{
-    margin:50px 40px;
-    height:100px;
-    width:130px;
-    background:transparent;
-    text-align:center;
-    border:2px solid white;
 }
