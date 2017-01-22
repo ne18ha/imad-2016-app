@@ -130,5 +130,13 @@ ul li{
      font-size:10px;
      margin-bottom:25px;
      padding-left:20px;
-     
- }
+}
+form-input:before{
+    background:url(/ui/man.png);
+    content:"\f001";
+    position:absolute;
+    font-size:30px;
+    color:#565A59;
+    padding-top:5px;
+    
+}
