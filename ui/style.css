@@ -138,5 +138,11 @@ form-input:before{
     font-size:30px;
     color:#565A59;
     padding-top:5px;
-    
 }
+.btn-login{
+    padding:15px 25px;
+    color:black;
+    background-color:white;
+    border:none;
+    border-radius:4px;
+    }
