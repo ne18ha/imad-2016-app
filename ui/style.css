@@ -1,6 +1,3 @@
-body{
-background:black;
-}
 header{
 text-align:center;
 font-weight:bold;
@@ -112,3 +109,26 @@ ul li{
 #login:hover{
  background:#9EA3A4;
 }
+.container{
+ width:500px;
+ height:400px;
+ background-color:green;
+ text-align:center;
+ border-radius:4px;
+ margin:0 auto;
+ margin-top:150px;
+ }
+ .container img{
+     height:120px;
+     width:120px;
+     margin-top:-60px;
+     margin-bottom:30px;
+ }
+ input[type="text"],input[type="password"]{
+     height:50px;
+     width:350px;
+     font-size:10px;
+     margin-bottom:25px;
+     padding-left:20px;
+     
+ }
